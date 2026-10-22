@@ -1,0 +1,12 @@
+# Тест 3: некорректные команды (программа должна продолжить работу)
+ADD Plane; power=500; country=USA
+ADD Car; power=150; country=Japan; doors=7; max_speed=200
+ADD Bus; power=250; country=Russia; passengers=99999
+ADD Truck; power=abc; country=Germany; capacity=100
+ADD Truck; power=300; country=Germany
+ADD Truck; power=300; country=Germany; capacity=5000
+REM color == red
+REM country > Germany
+REM engine_power
+FLY
+PRINT
