@@ -1,0 +1,8 @@
+# Тест 1: добавление, вывод, удаление по числовому условию
+ADD Truck; power=400; country=Germany; capacity=20000
+ADD Bus; power=250; country=Russia; passengers=45
+ADD Car; power=150; country=Japan; doors=4; max_speed=200
+ADD Car; power=300; country=Germany; doors=2; max_speed=250
+PRINT
+REM engine_power > 200
+PRINT
